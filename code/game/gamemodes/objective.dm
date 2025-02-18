@@ -545,7 +545,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 
 /datum/objective/blacksuit
 	name = "blacksuit"
-	explanation_text = "Follow the orders of your commander. Eliminate reality deviants, restore the consensus."
+	explanation_text = "Follow the orders of your supervisor. Eliminate reality deviants, restore the consensus."
 	martyr_compatible = TRUE
 
 /datum/objective/nuclear/check_completion()

@@ -982,6 +982,7 @@
 	flash_protect = FLASH_PROTECTION_FLASH
 	tint = 1
 	glass_colour_type = /datum/client_colour/glass_colour/green
+	hud_type = DATA_HUD_ABDUCTOR
 
 /obj/item/clothing/glasses/vampire/perception
 	name = "perception glasses"
