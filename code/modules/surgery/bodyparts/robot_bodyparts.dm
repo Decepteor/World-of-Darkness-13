@@ -33,6 +33,11 @@
 	medium_burn_msg = ROBOTIC_MEDIUM_BURN_MSG
 	heavy_burn_msg = ROBOTIC_HEAVY_BURN_MSG
 
+/obj/item/bodypart/l_arm/robot/flesh
+	icon_state = "default_human_l_arm"
+	icon = 'icons/mob/human_parts.dmi'
+
+
 /obj/item/bodypart/r_arm/robot
 	name = "cyborg right arm"
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case."
@@ -55,6 +60,10 @@
 	light_burn_msg = ROBOTIC_LIGHT_BURN_MSG
 	medium_burn_msg = ROBOTIC_MEDIUM_BURN_MSG
 	heavy_burn_msg = ROBOTIC_HEAVY_BURN_MSG
+
+/obj/item/bodypart/r_arm/robot/flesh
+	icon_state = "default_human_r_arm"
+	icon = 'icons/mob/human_parts.dmi'
 
 /obj/item/bodypart/l_leg/robot
 	name = "cyborg left leg"

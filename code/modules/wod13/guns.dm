@@ -609,6 +609,12 @@
 	masquerade_violating = TRUE
 	is_iron = FALSE
 
+/obj/item/gun/energy/pulse/destroyer/vampire
+	name = "NSN Plasma Caster"
+	desc = "To think, this will be accepted by the consensus in less than fifty years."
+	masquerade_violating = TRUE
+	onflooricon = 'code/modules/wod13/onfloor.dmi'
+
 /obj/item/ammo_box/magazine/internal/vampcrossbow
 	ammo_type = /obj/item/ammo_casing/caseless/bolt
 	caliber = CALIBER_FOAM

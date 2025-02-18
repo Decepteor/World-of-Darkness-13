@@ -874,6 +874,22 @@
 	darkness_view = 1
 	flash_protect = FLASH_PROTECTION_FLASH
 
+/obj/item/clothing/glasses/hud/vampire
+	icon = 'code/modules/wod13/clothing.dmi'
+	worn_icon = 'code/modules/wod13/worn.dmi'
+	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	body_worn = TRUE
+
+/obj/item/clothing/glasses/hud/vampire/blacksuit
+	name = "sunglasses"
+	desc = "Some cool looking sunglasses."
+	icon_state = "sun"
+	inhand_icon_state = "glasses"
+	darkness_view = 1
+	flash_protect = FLASH_PROTECTION_FLASH
+	tint = 1
+	glass_colour_type = /datum/client_colour/glass_colour/green
+
 /obj/item/clothing/glasses/vampire/perception
 	name = "perception glasses"
 	desc = "For reading books."
