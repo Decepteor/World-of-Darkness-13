@@ -1,16 +1,14 @@
-/datum/outfit/job/blacksuit
+/datum/outfit/blacksuit
 	name = "Blacksuit Agent"
 	ears = /obj/item/radio/headset/syndicate
 	uniform = /obj/item/clothing/under/vampire/suit
 	r_pocket = /obj/item/flashlight
+	l_pocket = /obj/item/vamp/keys/hack
 	shoes = /obj/item/clothing/shoes/vampire/businessblack
-	belt = /obj/item/gun/energy/pulse/destroyer/vampire
+	back = /obj/item/gun/energy/pulse/destroyer/vampire
 	glasses = /obj/item/clothing/glasses/hud/vampire/blacksuit
-	id = /obj/item/card/id/police
-	backpack_contents = list(
-		/obj/item/vamp/keys/hack=5
-		)
-
+	gloves = /obj/item/clothing/gloves/vampire/work
+	
 /datum/antagonist/blacksuit/proc/equip_blacksuit()
 	var/mob/living/carbon/human/H = owner.current
 	if(!ishuman(owner.current))
@@ -26,6 +24,7 @@
 	H.social = 4
 	H.mentality = 8
 	H.athletics = 10
+	H.dexterity = 8
 	H.ignores_warrant = TRUE
 	H.maxHealth = round((initial(H.maxHealth)-initial(H.maxHealth)/4)+(initial(H.maxHealth)/4)*(H.physique))
 	H.health = round((initial(H.health)-initial(H.health)/4)+(initial(H.health)/4)*(H.physique))
@@ -60,7 +59,7 @@
 	show_to_ghosts = TRUE
 	var/always_new_team = FALSE
 	var/datum/team/blacksuit/blacksuit_team
-	var/blacksuit_outfit = /datum/outfit/job/blacksuit
+	var/blacksuit_outfit = /datum/outfit/blacksuit
 	var/custom_objective
 
 /datum/antagonist/blacksuit/team_leader

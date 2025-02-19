@@ -691,6 +691,8 @@
 	desc = "To think, this will be accepted by the consensus in less than fifty years."
 	masquerade_violating = TRUE
 	onflooricon = 'code/modules/wod13/onfloor.dmi'
+	slot_flags = ITEM_SLOT_BACK
+
 
 /obj/item/ammo_box/magazine/internal/vampcrossbow
 	ammo_type = /obj/item/ammo_casing/caseless/bolt

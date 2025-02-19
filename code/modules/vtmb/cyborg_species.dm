@@ -30,3 +30,10 @@
 	mutantlungs = /obj/item/organ/lungs/cybernetic/tier3
 	mutantliver =  /obj/item/organ/liver/cybernetic/tier3
 	selectable = FALSE
+
+
+/obj/item/bodypart/l_arm/robot/flesh/is_organic_looking()
+	return TRUE
+
+/obj/item/bodypart/r_arm/robot/flesh/is_organic_looking()
+	return TRUE
